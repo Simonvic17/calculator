@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Calculator</title>
 </head>
 <body>
     <div class="main">
         <div class="calculator-wrapper">
             <div class="display">
-                <div class="top-display"></div>
-                <div class="display"></div>
+                <div class="top-display">0</div>
+                <div class="bottom-display">0</div>
             </div>
             <div class="buttons">
                 <button class="btn" id="clear">C</button>
-                <button class="btn" id="positive-negative">+/-</button>
+                <button class="btn" id="positive-negative">&#177;</button>
                 <button class="btn" id="delete">Del</button>
-                <button class="btn" id="devide" value="/">&#247</button>
+                <button class="btn operator" id="devide" value="/">&#247</button>
 
                 <button class="btn" id="number" value="7">7</button>
                 <button class="btn" id="number" value="8">8</button>
                 <button class="btn" id="number" value="9">9</button>
-                <button class="btn" id="multiply" value="x">X</button>
+                <button class="btn operator" id="multiply" value="x">&#215</button>
 
                 <button class="btn" id="number" value="4">4</button>
                 <button class="btn" id="number" value="5">5</button>
                 <button class="btn" id="number" value="6">6</button>
-                <button class="btn" id="minus" value="-">-</button>
+                <button class="btn operator" id="minus" value="-">&#8722</button>
 
                 <button class="btn" id="number" value="1">1</button>
                 <button class="btn" id="number" value="2">2</button>
                 <button class="btn" id="number" value="3">3</button>
-                <button class="btn" id="plus" value="+">+</button>
+                <button class="btn operator" id="plus" value="+">+</button>
 
-                <button class="btn" id="number" value="0">0</button>
+                <button class="btn" id="zero" value="0">0</button>
                 <button class="btn" id="number" value=".">.</button>
-                <button class="btn" id="minus" value="=">=</button>
+                <button class="btn operator" id="equal" value="=">&#61</button>
             </div>
         </div>
     </div>
